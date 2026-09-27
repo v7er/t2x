@@ -202,7 +202,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   const workspaceRoot = args.root ?? join(dirname(fileURLToPath(import.meta.url)), "..");
   // The caller here is the brand task checking its own work: it is holding the
   // marker (report it, but judge the assets on disk) and it owes a custom card
-  // whether or not the app draws to a canvas — unless it was launched for a
+  // whether or not the app draws to a canvas \u2014 unless it was launched for a
   // plain utility that keeps the placeholder, which only it knows.
   const messages = brandWarningsOnDisk({
     hasCanvas: args.game,
