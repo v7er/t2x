@@ -77,7 +77,7 @@ function Insights() {
         <Stat label="Streak" value={`${streak}`} unit={streak === 1 ? "day" : "days"} />
         <Stat label="This week" value={formatMinutes(totalWeek)} unit="focused" />
         <Stat label="Rounds" value={`${focusCount}`} unit="this week" />
-        <Stat label="Check-ins" value={`${checkDays}/7`} unit="days"} />
+        <Stat label="Check-ins" value={`${checkDays}/7`} unit="days" />
       </div>
 
       <section className="rounded-xl bg-surface p-5 shadow-border">

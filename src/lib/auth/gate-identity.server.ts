@@ -6,7 +6,6 @@ import {
 } from "jose";
 import { env, isWorkspacePreview } from "../env.server.ts";
 
-
 export const GATE_IDENTITY_HEADER = "x-grok-identity";
 export const GATE_JWKS_PATH = "/__gate/identity-key";
 
