@@ -1,0 +1,6 @@
+{
+  "name": "t2x",
+  "compatibility_date": "2026-09-27",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true
+}

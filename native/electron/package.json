@@ -1,0 +1,9 @@
+{
+  "name": "t2x",
+  "productName": "T2x",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "main.mjs",
+  "description": "T2x — master time. Local-first."
+}

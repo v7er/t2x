@@ -1,0 +1,16 @@
+node_modules
+dist
+.output
+.vercel
+.nitro
+.wrangler
+native/electron/dist
+native/release
+screenshots
+artifacts
+*.zip
+.grok
+.env
+.env.*
+*.log
+.DS_Store
